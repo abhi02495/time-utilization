@@ -148,4 +148,9 @@ public class TimeUtilizationController {
 		
 		return message;
 	}
+
+	@RequestMapping("api/v1/dummy")
+	public String returnSomething(){
+		return "Abhishek";
+	}
 }
